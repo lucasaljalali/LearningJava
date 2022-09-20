@@ -15,5 +15,12 @@ public class Exercise4 {
 
         phrase = phrase + 2022;
         System.out.println(phrase);
+
+        int first = 5;
+        int second = 7;
+        second = first;
+        first = 10;
+
+        System.out.println(second);
     }
 }
