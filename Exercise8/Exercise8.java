@@ -9,6 +9,12 @@ public class Exercise8 {
         WarCar c3 = new WarCar("Leopard", 100);
         WarCar c4 = new WarCar("Panter", 50);
 
+        c3.shoot();
+        c3.shoot();
+        c3.shoot();
+        c4.soferDamage(130);
+        c2.soferDamage(5);
+
         c1.setOn(true);
         c1.info();
         c2.info();

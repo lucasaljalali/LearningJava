@@ -14,7 +14,7 @@ public class WarCar extends Car {
     }
 
     public void setNumberOfWeapons(int numberOfWeapons) {
-        this.numberOfWeapons = numberOfWeapons;
+        this.numberOfWeapons += numberOfWeapons;
         if (this.numberOfWeapons > MAX_WEAPONS) {
             this.numberOfWeapons = MAX_WEAPONS;
         }
